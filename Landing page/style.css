@@ -1,0 +1,249 @@
+@font-face{
+   src: url(bai_jamjuree/BaiJamjuree-Regular.ttf);
+   src: url(bai_jamjuree/BaiJamjuree-SemiBold.ttf);
+   font-family: Bai-J;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: Bai-J;
+    font-size: 18px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:url(bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-top: 150px;
+    text-align: center;
+}
+img{
+    margin-bottom: 50px;
+}
+h1{
+    margin-bottom: 15px;
+    color: hsl(210, 10%, 33%);
+}
+p{
+  margin-bottom: 25px;  
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+}
+.btns{
+    margin-bottom: 100px;
+}
+.ios{
+    height: 40px;
+    width: 150px;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 70px;
+    margin-right: 10px;
+    padding: 2px;
+    color: white;
+}
+.mac{
+    height: 40px;
+    width: 150px;
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 70px;
+    margin-right: 10px;
+    padding: 2px;
+    color: white;
+}
+.snip{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 52%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+h2{
+    color: hsl(210, 10%, 33%);
+}
+.next{
+    display: flex;
+}
+.text-line{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    margin-left: 70px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+.image-two{
+    margin-left: -55px ;
+}
+.qs{
+    margin-bottom: 10px;
+}
+.is{
+    margin-bottom: 10px;
+}
+.ch{
+    margin-bottom: 10px;
+}
+.access{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 55%;
+    text-align: center;
+}
+.supercharge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sow{
+    margin-bottom: 20px;
+}
+.lists{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.items-a{
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 100px 50px;
+    line-height: 25px;
+}
+.a1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.a2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    text-align: center;
+    margin-right: 20px;
+}
+.a3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    text-align: center;
+}
+.cb{
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+.pts{
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+.sp{
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+.items-b{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.clipboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 42%;
+    margin-left: 400px;
+    text-align: center;
+    line-height: 20px;
+}
+.cimo{
+    margin-bottom: 15px;
+}
+.avail{
+    margin-bottom: 35px;
+}
+.green{
+    height: 40px;
+    width: 150px;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 70px;
+    margin-right: 10px;
+    padding: 2px;
+    color: white;   
+}
+.blue{
+    height: 40px;
+    width: 150px;
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 70px;
+    margin-right: 10px;
+    padding: 2px;
+    color: white;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#options{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-evenly;
+    margin-right: 80px;
+    color: black;
+}
+.tiny-logo{
+    margin: 3px 0px 0px 50px;
+    height: 40%;
+}
+#logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15%;
+    margin-top: 50px;
+    margin-left: -30px;
+}

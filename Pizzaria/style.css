@@ -1,0 +1,253 @@
+@font-face{
+    src: url(bai_jamjuree/BaiJamjuree-Regular.ttf);
+    src: url(bai_jamjuree/BaiJamjuree-SemiBold.ttf);
+    font-family: Bai-J;
+ }
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: bai-j;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10vh;
+    width: 100%;
+    background-color: whitesmoke;
+    color: grey;
+}
+nav a:hover{
+    border-bottom: 3px solid rgb(34, 196, 61);
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 90px;
+    margin-right: -20px;
+}
+.nav-btn{
+    background-color: white;
+    margin-top: 12px;
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    border-radius: 70px;
+}
+h2{
+    display: flex;
+    align-items: center;
+}
+.list{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 30%;
+margin-bottom: 20px;
+}
+.list li{
+    list-style: none;
+}
+.list a{
+    color: grey;
+}
+ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px 0px 60px;
+    color: white;
+}
+#home{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background-image: url(fresh-pizza.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.land{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 60%;
+    width: 25%;
+    margin: 0px 150px 0 120px;
+    color: grey;
+}
+h1{
+    font-size: 40px;
+
+}
+.home-button{
+    background-color: red;
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 70px;
+    border: none;
+    color: white;
+}
+#best-deal{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    width: 100%;
+    height: 75vh;
+    background-image: url(best-deal-two.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.deal-two{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ width: 35%;
+ margin-right: 70px;
+}
+.get{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.lorem{
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.best-button{
+ width: 150px;
+ height: 40px;
+ background-color: red;
+ border:none;
+ color: white;
+ font-size: 18px;
+ border-radius: 70px;
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: grey;
+}
+.grid-total{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    width: 95%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six, .grid-seven, .grid-eight{
+    background-color: white;
+    margin-right: 10px;
+    height: 45%;
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: -5px 5px 15px grey;
+}
+.tiny-img{
+    height: 70%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.grid-total p{
+    color: grey;
+}
+.grid-total h3{
+    color: black;
+    margin-left: 10px;
+}
+.tiny-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 5px 0px 10px
+}
+.text{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.tiny-button{
+    height: 25px;
+    width: 70px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+footer{
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    height: 80vh;
+}
+.foot-total{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.foot-top{
+    display: flex;
+    align-items: center;
+}
+.foot-logo{
+    margin-left: -70px;
+}
+.foot-h{
+    margin-left: -40px;
+    margin-top: -15px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+.all{
+    display: flex;
+}
+.foot-head{
+    margin: 30px 0px;
+}
+.foot-p{
+    margin-bottom: 15px;
+}
+.foot-links{
+    margin-bottom: 30px;
+}
+hr{
+    color: blue;
+}
+.tiny{
+    display: flex;
+}
+.tiny-h{
+    margin-right: 20px;
+    font-size: 22px;
+}
+.tiny-btn{
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 70px;
+    border: none;
+    margin-top: -5px;
+    font-size: 15px;
+}
+.c-right{
+    margin-left: 200px;
+    margin-top: 20px;
+}
