@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Overpass;
+    src: url(Overpass/static/Overpass-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Overpass;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    color: white;
+    background-color: hsl(213, 19%, 18%);
+    padding: 25px;
+    border-radius: 20px;
+}
+.img-div-cl{
+    height: 35px;
+    background-color: hsl(216, 12%, 54%);
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+img{
+    width: 35%;
+    height: 35%;
+}
+h1{
+    margin-bottom: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+#number-one, #number-two,#number-three,#number-four,#number-five{
+    height: 35px;
+    width: 35px;
+    background-color: lightslategrey;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#number-one, #number-two,#number-three,#number-four,#number-five:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+#number-one, #number-two,#number-three,#number-four,#number-five:active{
+    background-color: black;
+}
+a{
+    color: white;
+}
+#js-submit{
+    border-radius: 50px;
+    height: 35px;
+    border: none;
+}
+.small{
+    color: orangered;
+}

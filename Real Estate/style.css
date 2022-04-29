@@ -1,0 +1,252 @@
+@font-face {
+    font-family: Arvo;
+    src: url(Arvo/Arvo-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: Arvo;
+}
+.logo{
+    height: 7vh;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background-color:rgb(96,69,40);
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.8vw;
+    width: 40vw;
+    list-style: none;
+}
+ul a{
+    color: black;
+}
+.first-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-image: url(francesca.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+}
+.option-bar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.option-bar a{
+    color: black;
+    font-weight: bold;
+}
+.number-one, .number-two, .number-three, .number-four{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 12vh;
+    width: 10vw;
+    margin: 50px 5px 0px 2px;
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 10px;
+}
+accent{
+    color: gold;
+}
+.house{
+    height: 30vh;
+}
+.second-div{
+    background-color: white;
+}
+h2{
+    text-align: center;
+}
+.nl-properties{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.minis-1, .minis-2, .minis-3, .minis-4{
+ display: flex;   
+ flex-direction: column;
+ height: 310px;
+ width: 250px;
+ background-color: rgb(241, 240, 235);
+ margin: 20px 30px 10px 0px;  
+}
+.minis-1, .minis-2, .minis-3, .minis-4 p{
+    font-size: 12px;
+}
+.agent-dp{
+    height: 50px;
+    width: 50px;
+    border-radius: 70px;
+    margin-left: 10px;
+}
+h3{
+    font-size: 14px;
+}
+.des-price{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+.location-des{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.utilities{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-left: -2px;
+    margin-bottom: 5px;
+}
+hr{
+    margin-bottom: 5px;
+}
+.card-footer{
+    display: flex;
+    align-items: center;
+}
+.card-footer p{
+  margin-left: 15px;
+  font-weight: bold;
+  color: gray;  
+}
+.more-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.see-more{
+    height: 35px;
+    width: 90px;
+    background-color: rgb(29, 29, 218);
+    border: none;
+    color: white;
+    margin: 5px 0px 50px 0px;
+}
+.third-div{
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+}
+.deal-pic{
+    height: 450px;
+    width: 430px;
+}
+.entirety{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ads{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center;
+}
+.ad-1, .ad-2, .ad-3, .ad-4{
+    height: 180px;
+    width: 200px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 1rem;
+}
+h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.ad-para{
+    font-size: 14px;
+    color:gray;
+}
+.fourth-div{
+    background-image: url(daniel.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bigger-text{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin-bottom: 15px;
+}
+#mail-box{
+    height: 25px;
+    width: 300px;
+    border: solid 1.5px aqua;
+    background-color: transparent;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.subscribe-button{
+    height: 30px;
+    width: 120px;
+    background-color: aqua;
+    border: none;
+    margin-bottom: 10px;
+}
+.smaller-text{
+    color: white;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: lightblue;
+}
+.message-div{
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+}
+footer input{
+  margin: 2px 0px;
+  height: 35px;
+}
+.footer-input-2{
+    height: 100px;
+    text-align: top;
+}
+.footer-submit{
+    background-color: blue;
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 50px;
+}
