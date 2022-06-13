@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    padding-left: 10px;
+}
+input{
+    height: 30px;
+    padding-left: 5px;
+}
+button{
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+#addTodo{
+    background-color: blue;
+}
+#removeTodo{
+    background-color: red;
+}
